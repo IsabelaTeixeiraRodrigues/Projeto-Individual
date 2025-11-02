@@ -219,14 +219,15 @@ html {
 
 /* inicio css EPF */
 .container-epf{
-    background-color: #e0e0e0;
+    background-color: black;
     border-radius: 20px;
     width: 80%;
     max-width: 800px;
     margin: 50px auto;
     padding: 40px;
     text-align:  center;
-    box-shadow: 0 4px 8px black;
+    box-shadow: 0 4px 8px rgb(100, 99, 99);
+    color: white;
 }
 
 .personagens-lado {
@@ -236,10 +237,10 @@ html {
     gap: 20px; 
 }
 
-.container-personagens{
+.container-personagens-epf{
     display: flex;
     flex-direction: column;
-    background-color: #e0e0e0;
+    background-color: black;
     border-radius: 20px;
     width: 80%;
     max-width: 400px;
@@ -247,18 +248,76 @@ html {
     margin-top: 20px;
     padding: 10px;
     text-align:  center;
-    box-shadow: 0 4px 8px black;
+    box-shadow: 0 4px 8px rgb(100, 99, 99);
+    color: white;
 }
 
-.imagem-personagem img{
+.imagem-personagem-epf img{
     width: 300px;
     height: 400px;
 }
 
-.imagem-personagem img:hover{
+.imagem-personagem-epf img:hover{
     cursor: pointer;
     transform: scale(1.05);
     transition: 0.3s;
 
+}
+
+.container-meio-epf{
+    display: flex;
+    align-items: start;
+    background-color: black;
+    border-radius: 20px;
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 40px;
+    text-align:  center;
+    box-shadow: 0 4px 8px rgb(100, 99, 99);
+    color: white;
+}
+
+.conteiner-esquerda-epf img{
+    width: 350px;
+    height: 200px;
+}
+
+.lista-meio2-epf{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.lista-meio2-epf li{
+    margin: 5px 0; 
+    font-family: Arial, sans-serif; 
+    font-size: 16px; 
+    color: white; 
+    padding-left: 20px; 
+}
+
+.lista-meio2-epf li:hover {
+    color: #007bff; 
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+.container-img-epf{
+    width: 500px;
+    height: 300px;
+}
+
+.container-img-epf img{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+.centralizar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 /* fim css EPF */
