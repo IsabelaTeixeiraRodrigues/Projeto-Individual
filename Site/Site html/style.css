@@ -21,7 +21,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 550px;
-    background-image: url(https://img.freepik.com/vetores-gratis/codigo-binario-de-estilo-matriz-fundo-digital-com-numeros-decrescentes_1017-25336.jpg?semt=ais_hybrid&w=740&q=80);
+    background-image: url(https://img.freepik.com/fotos-premium/matriz-azul-de-fundo-digital-codificacao-ou-conceito-de-hacking-fluxo-de-numeros-aleatorios-renderizacao-em-3d_634443-415.jpg);
     background-size: cover;       
     background-position: center;  
     background-repeat: no-repeat;  
@@ -304,20 +304,82 @@ html {
     transition: 0.3s;
 }
 
-.container-img-epf{
-    width: 500px;
-    height: 300px;
-}
-
-.container-img-epf img{
-    width: 100%;
-    height: 100%;
-    margin: auto;
-}
-
 .centralizar{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 /* fim css EPF */
+
+/*inicio css login*/
+.container-login{
+    display: flex;
+    width: 60%;
+    height: auto;
+    margin: 50px auto;
+    background-color: #87cefa;
+    color: white;
+    max-width: auto;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgb(100, 99, 99);
+}
+
+#imagem-esquerda{
+    width: 50%;
+}
+
+#imagem-esquerda img{
+    width: 100%;
+    height: 500px;
+}
+
+#login-direita{
+    width: 45%;
+    margin-right: 20px;
+}
+
+#login-direita input{
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+#login-direita input:focus{
+    outline: none;
+    border-color: #87cefa;
+     box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.25);
+}
+
+#login-direita button{
+    padding: 10px;
+    width: 100%;
+    background-color: #6ba3c6;
+    color: white;
+    border-radius: 20px;
+}
+/*fim css login*/
+
+/*inicio css cadastro*/
+.container-cadastro{
+    display: flex;
+    background-color: #87cefa;
+    width: 60%;
+    margin: 50px auto;
+    color: white;
+    padding: 20px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgb(100, 99, 99);
+}
+
+.titulo-cadastro{
+    text-align: center;
+    color: white;
+    margin-top: 50px;
+}
+/*fim css cadastro*/
